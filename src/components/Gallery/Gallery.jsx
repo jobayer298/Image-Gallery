@@ -97,7 +97,7 @@ const Gallery = ({}) => {
             Delete Files
           </p>
         </div>
-      )}
+      )} 
       <hr />
       <div className="grid grid-cols-3 md:grid-cols-5 gap-4 mt-4">
         {images.map((image, index) => (
