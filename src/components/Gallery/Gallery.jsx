@@ -120,7 +120,7 @@ const Gallery = ({}) => {
               className="w-full h-full object-cover cursor-grab"
             />
             <input
-              className={`absolute top-3 checkbox cursor-pointer left-3 opacity-0 transition-all delay-150 ${
+              className={`absolute w-4 h-4 top-3 checkbox cursor-pointer left-3 opacity-0 transition-all delay-150 ${
                 selectedImages.includes(index) ? "opacity-100" : ""
               }`}
               type="checkbox"
