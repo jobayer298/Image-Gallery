@@ -80,7 +80,7 @@ const Gallery = ({}) => {
   };
 
   return (
-    <div className="w-full md:w-1/2 mx-auto mt-6 rounded-xl bg-white p-7">
+    <div className="w-full md:w-3/4 lg:w-1/2 mx-auto mt-6 rounded-xl bg-white p-7">
       <h1 className="text-3xl  pb-3   font-bold ">Gallery</h1>
       {selectedImages.length > 0 && (
         <div className="mt-4 flex justify-between items-center pb-3">
